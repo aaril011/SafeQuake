@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic__baseline_home"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_history"
+        android:icon="@drawable/material_symbols__history"
+        android:title="@string/title_history" />
+
+    <item
+        android:id="@+id/navigation_evaluation"
+        android:icon="@drawable/fluent__shield_12_filled"
+        android:title="@string/title_evaluation" />
+
+    <item
+        android:id="@+id/navigation_education"
+        android:icon="@drawable/tdesign__education_filled"
+        android:title="@string/title_education" />
+
+    <item
+        android:id="@+id/navigation_setting"
+        android:icon="@drawable/uil__setting__1_"
+        android:title="@string/title_setting" />
+
+</menu>

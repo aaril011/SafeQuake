@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.dicoding.safequake.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_history"
+        android:name="com.dicoding.safequake.ui.history.HistoryFragment"
+        android:label="@string/title_history"
+        tools:layout="@layout/fragment_history" />
+
+    <fragment
+        android:id="@+id/navigation_evaluation"
+        android:name="com.dicoding.safequake.ui.evaluation.EvaluationFragment"
+        android:label="@string/title_evaluation"
+        tools:layout="@layout/fragment_evaluation" />
+
+    <fragment
+        android:id="@+id/navigation_education"
+        android:name="com.dicoding.safequake.ui.education.EducationFragment"
+        android:label="@string/title_education"
+        tools:layout="@layout/fragment_education" />
+    <fragment
+        android:id="@+id/navigation_setting"
+        android:name="com.dicoding.safequake.ui.setting.SettingFragment"
+        android:label="@string/title_setting"
+        tools:layout="@layout/fragment_setting" />
+</navigation>

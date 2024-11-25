@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/about"
+        android:icon="@drawable/akar_icons__question_fill"
+        android:title="@string/about_application"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/notification"
+        android:icon="@drawable/clarity__notification_solid"
+        android:title="@string/notification"
+        app:showAsAction="ifRoom" />
+</menu>
