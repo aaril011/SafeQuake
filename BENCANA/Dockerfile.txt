@@ -1,0 +1,20 @@
+# Gunakan image Python sebagai base image
+FROM python:3.9-slim
+
+# Set working directory di dalam container
+WORKDIR /app
+
+# Salin file requirements.txt ke dalam container
+COPY requirements.txt /app/
+
+# Install dependencies yang ada di requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Salin seluruh file aplikasi ke dalam container
+COPY . /app/
+
+# Expose port 8501 yang digunakan oleh Streamlit
+EXPOSE 8501
+
+# Perintah untuk menjalankan aplikasi Streamlit
+CMD ["streamlit", "run", "app.py", "--server.port=8080", "--server.address=0.0.0.0"]
